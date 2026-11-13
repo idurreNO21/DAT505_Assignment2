@@ -1,0 +1,2 @@
+timestamp,alert_type,src_ip,dst_ip,details,pkt_summary
+2026-11-09T14:03:29.364748,UNAUTHORIZED_ADVERTISEMENT,172.18.0.1,172.18.0.2,Printer advertisement from unlisted source. URI: ipp://172.18.0.1:8631/printers/NAME,Ether / IP / UDP 172.18.0.1:51429 > 172.18.0.2:631 / Raw

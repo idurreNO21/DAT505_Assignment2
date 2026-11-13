@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-11-09T14:06:01.795566",
+    "alert_type": "UNAUTHORIZED_ADVERTISEMENT",
+    "src_ip": "172.18.0.1",
+    "dst_ip": "172.18.0.2",
+    "details": "Printer advertisement from unlisted source. URI: http://172.18.0.1:8631/printers/NAME",
+    "pkt_summary": "Ether / IP / UDP 172.18.0.1:37863 > 172.18.0.2:631 / Raw"
+  },
+  {
+    "timestamp": "2026-11-09T14:06:01.795740",
+    "alert_type": "MALFORMED_PAYLOAD",
+    "src_ip": "172.18.0.1",
+    "dst_ip": "172.18.0.2",
+    "details": "Unexpected URI scheme in advertisement: http://172.18.0.1:8631/printers/NAME",
+    "pkt_summary": "Ether / IP / UDP 172.18.0.1:37863 > 172.18.0.2:631 / Raw"
+  }
+]

