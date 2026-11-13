@@ -60,12 +60,6 @@ source .venv/bin/activate
 python3 scripts/ipp_server.py
 ```
 
-**Run the socket-based announcement tool:**
-
-```bash
-python3 scripts/send_announcement.py --help
-```
-
 **Run the Scapy-based attack tool:**
 
 ```bash
